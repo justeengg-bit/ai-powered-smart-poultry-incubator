@@ -1,0 +1,7 @@
+# Keep the repository limited to reviewed release snapshots and metadata.
+*
+!/.gitignore
+!/README.md
+!/VERSION_MANIFEST.json
+!/Smart_Incubator_Submission_2026-10-11.zip
+!/Smart_Incubator_Submission_2026-11-10.zip
