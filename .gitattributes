@@ -1,0 +1,14 @@
+# Preserve the audited source/artifact bytes and their SHA-256 checksums.
+/Software/** -text
+/Hardware/** -text
+*.zip binary
+*.apk binary
+*.tflite binary
+*.bin binary
+*.jar binary
+
+# Repository-level documentation uses normal LF line endings.
+/README.md text eol=lf
+/.gitignore text eol=lf
+/.gitattributes text eol=lf
+/VERSION_MANIFEST.json text eol=lf

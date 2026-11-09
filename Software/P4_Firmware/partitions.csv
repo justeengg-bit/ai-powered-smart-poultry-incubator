@@ -1,0 +1,15 @@
+# partitions.csv — GUITION JC-ESP32P4-M3-DEV  (16MB flash)
+#
+# Partition layout:
+#   nvs        — WiFi/system key-value store
+#   phy_init   — RF calibration data
+#   app        — your main application (8MB)
+#   slave_fw   — esp_hosted firmware for the ESP32-C6 co-processor (2MB)
+#   storage    — spare (can be used for SPIFFS/LittleFS later)
+#
+# Name,      Type, SubType,  Offset,    Size,    Flags
+nvs,          data, nvs,      0x9000,    0x6000,
+phy_init,     data, phy,      0xf000,    0x1000,
+app,          app,  factory,  0x10000,   0xC00000,
+slave_fw,     data, 0x80,     0xC10000,  0x200000,
+storage,      data, fat,      0xE10000,  0x1F0000,

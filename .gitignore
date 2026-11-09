@@ -1,7 +1,50 @@
-# Keep the repository limited to reviewed release snapshots and metadata.
-*
+# Keep only reviewed system folders, release snapshots, and metadata at the root.
+/*
 !/.gitignore
+!/.gitattributes
 !/README.md
 !/VERSION_MANIFEST.json
 !/Smart_Incubator_Submission_2026-10-11.zip
 !/Smart_Incubator_Submission_2026-11-10.zip
+!/Software/
+!/Hardware/
+
+# Local environments, generated caches, screenshots, and datasets.
+**/.git/
+**/.dart_tool/
+**/.gradle/
+**/.idea/
+**/.vscode/
+**/.venv*/
+**/__pycache__/
+**/node_modules/
+**/build/
+**/build_verify/
+**/managed_components/
+**/datasets*/
+**/Example_Images/
+**/[Ss]creenshots*/
+**/[Ss]creenshot*
+**/phone_*.png
+**/phone_*.jpg
+*.pyc
+*.log
+*.bak
+*.swp
+.DS_Store
+
+# Machine-local settings and signing secrets.
+**/local.properties
+**/key.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+.env
+.env.*
+
+# Keep the reviewed release APK, not debug or intermediate Android packages.
+*.apk
+*.aab
+!/Software/Android_APK/app-release.apk

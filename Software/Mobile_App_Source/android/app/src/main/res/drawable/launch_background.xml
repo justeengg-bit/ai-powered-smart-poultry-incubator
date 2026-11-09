@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient background (blue to green, matching app theme) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="45"
+                android:startColor="#2979FF"
+                android:endColor="#00E676"
+                android:useLevel="false"/>
+        </shape>
+    </item>
+
+    <!-- Centered candling app icon -->
+    <item
+        android:width="108dp"
+        android:height="108dp"
+        android:gravity="center">
+        <bitmap
+            android:src="@drawable/egg_ai_icon"
+            android:gravity="center"/>
+    </item>
+</layer-list>

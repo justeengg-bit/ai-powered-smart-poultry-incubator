@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <!-- Egg body from original SVG -->
+    <path
+        android:pathData="M512,200 C638,200 756,308 756,488 C756,672 648,858 512,858 C376,858 268,672 268,488 C268,308 386,200 512,200 Z"
+        android:fillColor="#FFFFFF"/>
+</vector>
