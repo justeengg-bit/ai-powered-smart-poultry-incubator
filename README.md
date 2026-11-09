@@ -1,6 +1,6 @@
 # AI-Powered Smart Poultry Incubator with Automated Fertility Detection for Enhanced Hatchability
 
-Private source-code and executable snapshots for the smart incubator system.
+Public source-code and executable snapshots for the smart incubator system.
 
 ## Current Snapshot
 
@@ -38,4 +38,8 @@ The Android APK and bundled fertility model remain unchanged. P4 performs egg co
 
 No screenshots, dataset/sample photos, raw training data, IDE caches, virtual environments, consent records, or signing keys were added. App icons and required runtime image assets are included. The separate ESP32-C6 slave firmware was not changed or included.
 
-The firmware contains local device-network configuration. Keep this repository private. Refer to the README inside the current archive before building, installing, or using retained firmware binaries. Physical wiring and live system behavior require separate validation.
+The project owner has authorized public sharing of the existing local device-network settings, including the incubator Wi-Fi configuration. Those settings are intentionally unchanged. Change the shared defaults before adapting this code to another network or deployment.
+
+The ZIP archives retain their original packaging notes, including earlier instructions to keep the snapshots private. This repository was subsequently approved for public sharing on November 10, 2026. The archives, binaries, models, and their recorded checksums were not changed by the visibility update.
+
+Refer to the README inside the current archive before building, installing, or using retained firmware binaries. Physical wiring and live system behavior require separate validation.

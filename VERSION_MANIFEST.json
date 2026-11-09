@@ -4,7 +4,7 @@
     "description":  "Current important source and retained executable snapshot; no new build, training, flash, or installation.",
     "historical_archive_commit":  "7367a9e7934f9a85417a4f7296b6c04f09017bd5",
     "historical_archive_preserved":  true,
-    "privacy":  "Private repository; local Wi-Fi configuration is retained. No GitHub credentials, signing keys, consent records, screenshots, dataset photos, or raw datasets are included.",
+    "privacy":  "Public sharing approved by the project owner on 2026-11-10, including the existing local Wi-Fi configuration. Archive contents and checksums are unchanged. No GitHub credentials, signing keys, consent records, screenshots, dataset photos, or raw datasets are included.",
     "components":  {
                        "p4_source":  {
                                          "path":  "Software/P4_Firmware/main/main.cpp",
